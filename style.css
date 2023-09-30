@@ -1,0 +1,567 @@
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style */
+
+/* nav style */
+
+nav {
+    display: flex;
+    margin: 37px 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo {
+    display: flex;
+    gap: 20px;
+}
+.nav-logo h3 {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #0B0223;
+}
+.nav-logo span {
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nav-menu {    
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+.nav-menu li {
+    list-style: none;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.nav-menu-left ul{
+    display: flex;
+}
+.nav-menu-left li a{
+    margin-right: 32px;
+}
+.nav-menu-right {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 16px 24px;   
+}
+.nav-menu-right ul{
+    display: flex;
+    gap: 24px;
+}
+
+/* banner style */
+
+.banner {
+    display: flex; 
+    gap: 35px;
+}
+.banner-content {
+    background-image: url(images/Group\ 14.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 148px 250px 148px 200px;
+    /* width: 900px; */
+   
+}
+.banner-content h3 {
+    color: #0B0223;
+    /* text-align: center; */
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-content h1 {
+    /* text-align: center; */
+    font-family: Work Sans;
+    font-size: 5.9375rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.click {
+    display: flex;    
+    margin-top: 24px;
+    gap: 12px;
+}
+.click p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.download {
+    margin: 17px auto; 
+    display: flex;   
+    gap: 12px;
+}
+.download p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.supported {
+    display: flex;   
+    gap: 12px;  
+}
+.supported p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+}
+.banner-button {
+    margin-top: 41px;
+}
+.banner-btn1 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1,25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;    
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%)); 
+    margin-right: 24px;  
+}
+.banner-btn2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;   
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0; 
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+.banner-img {
+    margin-right: 200px;
+}
+.banner-img img {  
+    width: 100%;
+    height: 100%; 
+}
+
+/* we-gamer style */
+
+.we-gamer {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    display: flex;
+}
+.we-gamer img {
+    padding: 55px 52px 56px 200px;
+    width: 45%;
+}
+.we-gamer-content {
+    margin: 55px 170px 96px 0px;
+}
+.we-gamer-content h2 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.we-gamer-content p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.we-gamer-content button{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.24rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+.purpose {
+    margin-top: 24px;
+}
+.purpose h4 {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; /* 187.5% */
+}
+.purpose h3 {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: right;
+}
+
+/* funny-videos style */
+.funny-videos {
+    margin: 120px 200px;
+}
+.funny-videos-content h3 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.funny-videos-content span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    text-align: center;  
+}
+.funny-videos-content p {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.funny-videos-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+.funny-videos-card img {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    flex-shrink: 0;
+    border-radius: 16px;    
+}
+.card {
+    position: relative;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.text p {
+    text-align: center;
+}
+.text h5{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card:hover .image {
+    opacity: 0.2;
+    background-color: #0B0223;
+}
+.card:hover .middle {
+    opacity: 1;
+} 
+.funny-videos-card p {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+    margin-top: 24px;
+}
+
+/* play-instantly style */
+.play-instantly {
+    margin: 0px 0px 120px 300px;
+    display: flex;
+}
+.play-instantly-content {
+    margin-right: 200px;
+}
+.play-instantly-content h2{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    color: #0B0223;
+}
+.play-instantly-content span {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-instantly-content p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: 24px;
+}
+.play-instantly-img1 img{
+    width: 100%;
+    position: relative;
+}
+.play-instantly-img2 img {
+    width: 100%;
+    position: relative;
+    left: -250%;    
+    top: 55%;
+}
+
+/* play-games-online style */
+.play-games-online {
+    margin: 0px 200px 120px;
+    display: flex;
+}
+.play-games-online-content {
+    margin-left: 100px;
+}
+.play-games-online-content h2 {
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.play-games-online-content span {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-games-online-content p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: 24px;
+}
+.play-games-online-img1 img {
+    width: 100%;
+    position: relative;
+}
+.play-games-online-img2 img {
+    width: 100%;
+    position: relative;
+    left: -50%;    
+    top: 50%;
+}
+
+/* careers style */
+.careers {
+    background-color: #F948B2;
+    display: flex;
+}
+.careers-content {
+    padding: 120px 0px 120px 200px;
+    width: 50%;
+}
+.careers-content h3 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+.careers-content p {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.careers-list {
+    display: flex;
+    gap: 97px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+    margin-bottom: 40px;
+}
+.careers-list-button {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0;
+    border-radius: 48px;
+    background: #FFF;
+}
+.careers-list-button button{
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;  
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 0;
+}
+.careers-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* button-section */
+
+.button-section {
+    padding: 120px 240px 120px 200px;
+    display: flex;   
+    gap: 30px;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+.button-low {
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 20px;
+}
+.button-low img {
+    padding:10px;
+}
+.button-low h6 {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px 16px;   
+}
+.button-low:hover {
+    border: 2px solid var(--Linear, #FF42A5);
+}
+.button-low:hover h6 {
+    color: #FF42A5;
+}
