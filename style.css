@@ -84,7 +84,9 @@ nav {
     background-image: url(images/Group\ 14.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 148px 250px 148px 200px;
+    /* padding: 148px 250px 148px 200px; */
+    padding-left: 200px ;
+    padding: 148px;
     /* width: 900px; */
    
 }
@@ -533,35 +535,33 @@ nav {
 /* button-section */
 
 .button-section {
-    padding: 120px 240px 120px 200px;
     display: flex;   
-    gap: 30px;
-    flex-wrap: wrap;
+    margin: 50px;
+    flex-flow: row wrap; 
+    justify-content: space-around;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
 }
+
 .button-low {
     display: flex;
-    align-items: center;
-    border: 0;
-    border-radius: 50px;
+    align-items: center;    
     background: #FFF;
-    padding: 20px;
+    padding: 30px;
+    flex-basis: 200px;
 }
 .button-low img {
-    padding:10px;
+    margin-right: 20px;
 }
 .button-low h6 {
     color: #0B0223;
     font-family: Work Sans;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding: 20px 16px;   
 }
 .button-low:hover {
+    border-radius: 50px;
     border: 2px solid var(--Linear, #FF42A5);
-}
-.button-low:hover h6 {
     color: #FF42A5;
 }
